@@ -421,3 +421,13 @@ function lawyeria_lite_default_title( $title ) {
 
 	return $title;
 }
+
+
+/*function wp_scripts() {
+    global $wp_scripts;
+    if ( ! ( $wp_scripts instanceof WP_Scripts ) ) {
+        $wp_scripts = new WP_Scripts();
+    }
+    return $wp_scripts;
+}*(s)
+
